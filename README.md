@@ -41,7 +41,7 @@ Once inside the curl pod, run:
 curl http://nginx-service:80
 OR
 # You can also test a specific Pod IP from the Endpoints list
-curl http://<endpoint>:80
+curl http://< endpoint >:80
 
 
 👉 You should see the Nginx welcome page HTML.
