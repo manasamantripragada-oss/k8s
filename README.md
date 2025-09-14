@@ -39,10 +39,7 @@ Once inside the curl pod, run:
 
 # Replace <endpoint> with either Service name or ClusterIP
 curl http://nginx-service:80
-
-# OR
-curl http://<CLUSTER-IP>:80
-
+OR
 # You can also test a specific Pod IP from the Endpoints list
 curl http://<POD-IP>:80
 
