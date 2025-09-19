@@ -21,11 +21,12 @@ kubectl apply -f services.yml -n demo-k8s
 Check the Service:
 
 kubectl get svc nginx-service -n demo-k8s
-
+kubectl get svc nginx-clusterip -n demo-k8s
 
 Check the Endpoints (should list Pod IPs + ports):
 
 kubectl get endpoints nginx-service -n demo-k8s
+kubectl get endpoints nginx-clusterip -n demo-k8s
 
 🔍 4. Run a curl Pod for Testing
 
